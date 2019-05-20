@@ -35,11 +35,12 @@ class myAp{
   }
 }
 val st = new myAp
-st get "bjindal"
-st put ("atiwari","Aman Tiwari")
-st update ("bjindal","BJIndal")
-st insertIfNotPresent ("atiwari","Aman Tiwari")
-st insertIfNotPresent ("akarim","Asad Karim")
-st delete "ssarkar"
-st get "atiwari"
-st get "ssarkar"
+println(st get "bjindal")
+println(st put ("atiwari","Aman Tiwari"))
+println(st update ("bjindal","BJIndal"))
+println(st insertIfNotPresent ("atiwari","Aman Tiwari"))
+println(st insertIfNotPresent ("akarim","Asad Karim"))
+println(st delete "ssarkar")
+println(st get "atiwari")
+println(st get "ssarkar")
+println(st get "akarim")
